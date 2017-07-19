@@ -1,0 +1,30 @@
+{
+    "name": "helori/laravel-apitools",
+    "description": "Vue components and Laravel trait to manage database tables",
+    "keywords": ["laravel", "vue", "vuex", "api", "crud"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Helori Lanos",
+            "email": "helori@algoart.fr",
+            "homepage": "https://algoart.fr"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/helori/laravel-apitools.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Helori\\LaravelApitools\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        
+    }
+}
